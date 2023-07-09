@@ -1,0 +1,21 @@
+## Wayne Charrette Bootcamp Portfolio##
+
+This project is for the second week module. I will be using this as a repository for future projects. In it I will include details about myself, as well as areas for future projects that I will be working on in the future.
+
+# Version history#
+
+- "initial commit" included css stylesheet, the index.html file, and an empty read me. I had completed the mock up for the nav bar as well as the "About Me" Sections. Most sections resemble the brief without any personal details or descriptions 
+
+- "Add Read Me Details" 
+
+# Git hub deployment#
+
+https://waynecharr.github.io/Wayne_Charrette_Bootcamp_Portfolio/
+
+# Resources# 
+
+https://www.w3schools.com/howto/howto_js_topnav.asp -- for navigation bar
+https://www.youtube.com/watch?v=fYq5PXgSsbE -- helpful flex box guide
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration -- helpful underline guide
+
+
