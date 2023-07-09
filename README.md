@@ -5,10 +5,9 @@ This project is for the second week module. I will be using this as a repository
 # Version history
 
 - "initial commit" included css stylesheet, the index.html file, and an empty read me. I had completed the mock up for the nav bar as well as the "About Me" Sections. Most sections resemble the brief without any personal details or descriptions 
-
 - "Add Read Me Details" - fleshed out the README
-
-- "Work Boxes Added added" got the basic set up for the work flex boxes working. Needs additional help with images and all that. 
+- "Work Boxes Added" got the basic set up for the work flex boxes working. Needs additional help with images and all that. 
+- "Contact Me Added" added the contact me section. Need to figure out how to get the links to display and take up the correct amount of size in the Contact Me reference area, as well making sure that they flex properly vertically (since the size is quite large according to the brief)
 
 # Git hub deployment
 
