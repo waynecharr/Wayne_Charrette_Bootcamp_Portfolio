@@ -1,169 +1,201 @@
 :root {
-    --grey: #34373a;
-    --turnip: rgb(108, 163, 219);
-    --blue: rgb(28, 84, 139);
+  --grey: #34373a;
+  --turnip: rgb(108, 163, 219);
+  --blue: rgb(28, 84, 139);
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: 60px;
-    padding: 2px;
-    background: var(--grey);
-  }
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  header h1 {
-    display: inline-block;
-    width: 250px;
-    height: 38px;
-    font-size: 38px;
-    padding: 5px;
-    margin: 2px;
-    text-align: right;
-    background-color: var(--turnip);
-    color: var(--grey);
-  }
-  
-  .topnav {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
-    padding-right: 40px;
-    background-color: var(--grey);
-  }
+ul {
+  display: flex;
+  justify-content: space-between;
+}
 
-  .topnav a {
-    color: var(--turnip);
-    margin-right: 15px;
-    font-size: 15px;
-    font-weight: bold;
-    text-decoration: solid underline 4px;
-    text-underline-offset: 8px;   
-  }
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 60px;
+  padding: 2px;
+  background: var(--grey);
+}
 
-  .topnav a:hover {
-    color: white;
-  }
+header h1 {
+  display: inline-block;
+  width: 250px;
+  height: 38px;
+  font-size: 38px;
+  padding: 5px;
+  margin: 2px;
+  text-align: right;
+  background-color: var(--turnip);
+  color: var(--grey);
+}
 
-  .boards {
-    height: 200px;
-    width: 100%;
-    background-image: url("../images/Boards_2.jpg");
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 25px;
-  }
+a {
+  margin-right: 15px;
+  font-weight: bold;
+  color: var(--turnip);
+  text-decoration: solid underline 4px;
+  text-underline-offset: 8px;
+}
 
-  .box {
-    float: right;
-    display: inline-block;
-    text-align: right center;
-    background-color: var(--turnip);
-    color:var(--grey);
-    padding-top: 5px;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-bottom: 5px;
-    font-size: 25px;
-    margin-right: 50px;
-    margin-top: 150px;
-  }
-    /* About Me Container Section */
-  .about-me-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: first baseline;
-    align-items: right;
-    padding: 10px;
-  }
+.topnav {
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--turnip);
+  padding: 20px;
+  padding-right: 40px;
+  font-size: 15px;
+  background-color: var(--grey);
+}
 
-  .about-me-box {
-    width: 375px;
-  }
+.topnav a:hover {
+  color: white;
+}
 
-  .about-me-box-1 {
-    width: 200px;
-    font-size: 40px;
-    text-align: right;
-    margin-left: 3%;
-    padding-right: 1%;
-    color: var(--blue);
-  }
+.boards {
+  height: 200px;
+  width: 100%;
+  background-image: url("../images/Boards_2.jpg");
+  background-size: cover;
+  margin-bottom: 25px;
+}
 
-  .about-me-text {
-    margin: 1%;
-  }
-  
-  .about-me-box-2 {
-    flex-grow: 4;
-    padding-left: 60px;
-    margin-right: 35px;
-    border-left: solid var(--blue);
-  }
+.box {
+  float: right;
+  display: inline-block;
+  text-align: right center;
+  background-color: var(--turnip);
+  color: var(--grey);
+  padding-top: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 5px;
+  font-size: 25px;
+  margin-right: 50px;
+  margin-top: 150px;
+}
 
-  /*Work Box Contained Section*/
- 
-  .work-box-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: first baseline;
-    align-items: right;
-    padding: 10px;
-  }
+main {
+  margin-right: 1%;
+  border: solid black;
+}
 
-  .work-box {
-    width: 375px;
-  }
+/* About Me Container Section */
+.about-me-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: first baseline;
+  align-items: right;
+  padding: 10px;
+}
 
- .work-box-1 {
-    width: 200px;
-    font-size: 40px;
-    text-align: right;
-    margin-left: 3%;
-    padding-right: 1%;
-    color: var(--blue);
-  }
+.about-me-box {
+  width: 375px;
+}
 
- .work-box-2 {
+.about-me-box-1 {
+  width: 200px;
+  font-size: 40px;
+  text-align: right;
+  margin-left: 3%;
+  padding-right: 1%;
+  color: var(--blue);
+}
+
+.about-me-text {
+  margin: 1%;
+}
+
+.about-me-box-2 {
+  flex-grow: 4;
+  padding-left: 60px;
+  margin-right: 35px;
+  border-left: solid var(--blue);
+}
+
+/*Work Box Contained Section*/
+
+.work-box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: first baseline;
+  align-items: right;
+  padding: 10px;
+}
+
+.work-box {
+  width: 375px;
+}
+
+.work-box-1 {
+  width: 200px;
+  font-size: 40px;
+  text-align: right;
+  margin-left: 3%;
+  padding-right: 1%;
+  color: var(--blue);
+}
+
+.work-box-2 {
   flex-grow: 4;
   padding-left: 60px;
   margin-right: 60px;
   border-left: solid var(--blue);
- }
+}
 
- .work-surf-report {
+.work-box-sub-class {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.small-box {
+  margin-top: 10px;
+  min-width: 47%;
+  margin: 1%;
+}
+
+.work-surf-report {
   min-height: 400px;
-  border: solid black;
- }
+  border: solid var(--turnip);
+  background-image: url("../images/vscode.jpg");
+  background-size: cover;
+}
 
- .work-led-wall {
+.work-led-wall {
   min-height: 100px;
-  border: solid black;
- }
+  border: solid var(--turnip);
+  background-image: url("../images/laptop.jpg");
+  background-size: cover;
+}
 
- .work-calculator {
+.work-calculator {
   min-height: 100px;
-  border: solid black;
- }
+  border: solid var(--turnip);
+  background-image: url("../images/water-drops.jpg");
+  background-size: cover;
+}
 
- .work-pastel-puzzle {
+.work-pastel-puzzle {
   min-height: 100px;
-  border: solid black;
- }
+  border: solid var(--turnip);
+  background-image: url("../images/tree-lake.jpg");
+  background-size: cover;
+}
 
- .work-run-buddy {
+.work-run-buddy {
   min-height: 100px;
-  border: solid black;
- }
+  border: solid var(--turnip);
+  background-image: url("../images/flowers.jpg");
+  background-size: cover;
+}
 
- /* Contact Me Container Section*/
+/* Contact Me Container Section*/
 
- .contact-me-container {
+.contact-me-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: first baseline;
@@ -193,10 +225,7 @@ body {
   padding-left: 60px;
   margin-right: 35px;
   border-left: solid var(--blue);
+  font-size: 25px;
+  margin-right: 10%;
 }
-
-
-
-
-
 
