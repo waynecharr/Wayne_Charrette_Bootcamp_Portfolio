@@ -28,6 +28,7 @@ header h1 {
   color: var(--grey);
 }
 
+/* I used two classes for the topnav*/
 
 .topnav {
   display: flex;
@@ -45,14 +46,16 @@ header h1 {
   font-size: 15px;
   font-weight: bold;
   text-decoration: solid underline 4px;
-  text-underline-offset: 8px;   
+  text-underline-offset: 8px;
 }
 
 .topnav a:hover {
   color: white;
 }
 
-.boards {
+/*I called this class "banner" it's not semantic html, but I think it's clear what it's representing.*/
+
+.banner {
   height: 200px;
   width: 100%;
   background-image: url("../images/Boards_2.jpg");
@@ -60,7 +63,9 @@ header h1 {
   margin-bottom: 25px;
 }
 
-.boards-box {
+/*This class contains the inline banner box with the subtitle "Nice to meet you!"*/
+
+.banner-inline-box {
   float: right;
   display: inline-block;
   text-align: right center;
@@ -77,11 +82,11 @@ header h1 {
 
 main {
   margin-right: 1%;
-  border: solid black;
 }
 
-/* About Me Container Section */
-.about-me-container {
+/*Content below is the About Me section*/
+/* Anything indicated "Container, contains the entire section. In this case, container is the main flex box for the "About Me" section.*/
+.content-about-me-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: first baseline;
@@ -90,11 +95,13 @@ main {
   margin-right: 3%;
 }
 
-.about-me-box {
+/*Defines the width for flexing purposes.*/
+.content-about-me-width {
   width: 375px;
 }
 
-.about-me-box-1 {
+/*Defines the styling of the "About Me" aside section*/
+.content-about-me-box-1 {
   width: 200px;
   font-size: 40px;
   text-align: right;
@@ -103,17 +110,18 @@ main {
   color: var(--blue);
 }
 
-.about-me-text {
+.content-about-me-text {
   margin: 1%;
 }
 
-.about-me-box-2 {
+/*Defines the styleing for the main text section*/
+.content-about-me-box-2 {
   flex-grow: 4;
   padding-left: 60px;
   border-left: solid var(--blue);
 }
 
-.portfolio-photo {
+#content-portfolio-photo {
   width: 200px;
   height: 200x;
   border: solid var(--turnip);
@@ -122,9 +130,10 @@ main {
   margin-right: 2%;
 }
 
-/*Work Box Container Section*/
+/*Content below is the Work section*/
+/*Work Box Container for the whole section for flexing purposes.*/
 
-.work-box-container {
+.content-work-box-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: first baseline;
@@ -134,11 +143,13 @@ main {
   margin-bottom: 2%;
 }
 
-.work-box {
+/*Defines the width for flexing purposes.*/
+.content-work-width {
   width: 375px;
 }
 
-.work-box-1 {
+/*Defines the styling of the "Work" aside section*/
+.content-work-box-1 {
   width: 200px;
   font-size: 40px;
   text-align: right;
@@ -147,26 +158,16 @@ main {
   color: var(--blue);
 }
 
-.work-box-2 {
+/*Defines the styleing for the actual content containing links to different projects and future projects. */
+.content-work-box-2 {
   flex-grow: 4;
   padding-left: 60px;
   border-left: solid var(--blue)
 }
 
-.work-box-sub-class {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+/*Initally all the sections were formatted like ".content-work-hoirseon", but I dropped the word work to make it more straight forward and reduce the length of the class name*/
 
-}
-
-.small-box {
-  margin-top: 10px;
-  min-width: 48%;
-  
-}
-
-.work-surf-report {
+.content-horiseon {
   min-height: 400px;
   display: block;
   border: solid var(--turnip) 5px;
@@ -175,7 +176,8 @@ main {
   position: relative
 }
 
-.work-surf-report-box1 {
+/*Each content contains two ids for each inline block of text. I experimented with one block for the inline, but couldn't get it to align correctly and landed on using two for each. One for the larger block of text and one for the smaller block of text.*/
+#content-horiseon-inline1 {
   display: inline-block;
   position: absolute;
   background-color: var(--turnip);
@@ -185,7 +187,7 @@ main {
   bottom: 30px;
 }
 
-.work-surf-report-box2 {
+#content-horiseon-inline2 {
   display: inline-block;
   position: absolute;
   background-color: var(--turnip);
@@ -196,11 +198,25 @@ main {
   padding-right: 49px;
 }
 
-.work-surf-report:hover {
+.content-horiseon:hover {
   opacity: .5;
 }
 
-.work-led-wall {
+/*This sub-class came out of my tutoring session. It was advised that I use a larger sub-class to keep all the smaller boxes below Horiseon consistent*/
+.content-work-sub-class {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/*Just defines the box sizes*/
+.small-box {
+  margin-top: 10px;
+  min-width: 48%;
+}
+
+/*Content for LED Wall below*/
+.content-led-wall {
   min-height: 125px;
   border: solid var(--turnip) 5px;
   background-image: url("../images/laptop.jpg");
@@ -209,7 +225,7 @@ main {
   float: left;
 }
 
-.work-led-wall-box1 {
+#content-led-wall-inline1 {
   display: inline-block;
   position: absolute;
   background-color: var(--turnip);
@@ -219,22 +235,23 @@ main {
   top: 15px;
 }
 
-.work-led-wall-box2 {
+#content-led-wall-inline2 {
   display: inline-block;
   position: absolute;
   background-color: var(--turnip);
   color: var(--grey);
   padding: 10px;
   padding-right: 64px;
-  bottom: .5px; 
+  bottom: .5px;
   font-size: 12px;
 }
 
-.work-led-wall:hover {
+.content-led-wall:hover {
   opacity: .5;
 }
 
-.work-calculator {
+/*Content for Calculator below */
+.content-calculator {
   min-height: 125px;
   border: solid var(--turnip) 5px;
   background-image: url("../images/water-drops.jpg");
@@ -243,7 +260,7 @@ main {
   float: right;
 }
 
-.work-calculator-box1 {
+#content-calculator-inline1 {
   display: inline-block;
   position: absolute;
   background-color: var(--turnip);
@@ -254,21 +271,22 @@ main {
   top: 15px;
 }
 
-.work-calculator-box2 {
+#content-calculator-inline2 {
   display: inline-block;
   position: absolute;
   background-color: var(--turnip);
   color: var(--grey);
   padding: 10px;
-  bottom: .5px; 
+  bottom: .5px;
   font-size: 12px;
 }
 
-.work-calculator:hover {
+.content-calculator:hover {
   opacity: .5;
 }
 
-.work-pastel-puzzle {
+/*Content for Pastel Puzzle below*/
+.content-pastel-puzzle {
   min-height: 125px;
   border: solid var(--turnip) 5px;
   background-image: url("../images/tree-lake.jpg");
@@ -276,7 +294,7 @@ main {
   position: relative;
 }
 
-.work-pastel-puzzle-box1 {
+#content-pastel-puzzle-inline1 {
   display: inline-block;
   position: absolute;
   background-color: var(--turnip);
@@ -286,22 +304,23 @@ main {
   top: 15px;
 }
 
-.work-pastel-puzzle-box2 {
+#content-pastel-puzzle-inline2 {
   display: inline-block;
   position: absolute;
   background-color: var(--turnip);
   color: var(--grey);
   padding: 10px;
   padding-right: 93px;
-  bottom: .5px; 
+  bottom: .5px;
   font-size: 12px;
 }
 
-.work-pastel-puzzle:hover {
+.content-pastel-puzzle:hover {
   opacity: .5;
 }
 
-.work-run-buddy {
+/*Content for Run Buddy below*/
+.content-run-buddy {
   min-height: 125px;
   border: solid var(--turnip) 5px;
   background-image: url("../images/flowers.jpg");
@@ -309,7 +328,7 @@ main {
   position: relative;
 }
 
-.work-run-buddy-box1 {
+#content-run-buddy-inline1 {
   display: inline-block;
   position: absolute;
   background-color: var(--turnip);
@@ -319,25 +338,24 @@ main {
   top: 15px;
 }
 
-.work-run-buddy-box2 {
+#content-run-buddy-inline2 {
   display: inline-block;
   position: absolute;
   background-color: var(--turnip);
   color: var(--grey);
   padding: 10px;
   padding-right: 73px;
-  bottom: .5px; 
+  bottom: .5px;
   font-size: 12px;
 }
 
-.work-run-buddy:hover {
+.content-run-buddy:hover {
   opacity: .5;
 }
 
-
-/* Contact Me Container Section*/
-
-.contact-me-container {
+/*Content below is the About Me section*/
+/*About Me Container for the whole section for flexing purposes.*/
+.content-contact-me-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: first baseline;
@@ -346,11 +364,13 @@ main {
   padding: 10px;
 }
 
-.contact-me-box {
+/*Defines with for flexing purposes*/
+.content-contact-me-width {
   width: 375px;
 }
 
-.contact-me-box-1 {
+/*Defines the styling of the "Work" aside section*/
+.content-contact-me-box-1 {
   width: 200px;
   font-size: 40px;
   text-align: right;
@@ -359,39 +379,35 @@ main {
   color: var(--blue);
 }
 
-.contact-me-text {
+.content-contact-me-text {
   margin: 1%;
 }
 
-.contact-me-box-2 {
+/*Defines the styleing for the actual content containing links to different things. */
+.content-contact-me-box-2 {
   flex-grow: 1;
   padding-left: 60px;
   padding-right: 60px;
   border-left: solid var(--blue);
 }
 
-.contact-me-section-master {
-  display: flex;
-  flex-wrap: wrap;
-  width: 200px;
-  font-size: 15px;
-}
-
-.contact-me-sections {
+/*Responsible for the wrap*/
+.content-contact-me-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 1%;
 }
 
-.contact-me-section-individual {
+/*Defines color font weight for the individual links*/
+#content-contact-me-link {
   color: var(--turnip);
   font-weight: bold;
   text-decoration: solid underline 4px;
-  text-underline-offset: 8px;  
+  text-underline-offset: 8px;
   font-size: 15px;
 }
 
-.contact-me-section-individual:hover {
- color: var(--grey);
-} 
+.content-contact-me-link:hover {
+  color: var(--grey);
+}

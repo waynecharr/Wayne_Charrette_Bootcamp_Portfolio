@@ -10,32 +10,33 @@
 </head>
 
 <!--Contains the whole document. The only semantic html I used were body, sections, header. I had issues trying to use nav and used a span instead. Also, instead of an aside, I divided my sections into blocks.-->
+
 <body>
   <header>
     <h1>Wayne Charrette</h1>
     <!-- This is navigation bar. The three sections "About Me, Work, and Contact Me" navigate to parts in the document. Resume links to my LinkedIn-->>
     <span class="topnav">
-      <a href="#about-me">About Me</a>
-      <a href="#work">Work</a>
-      <a href="#contact-me">Contact Me</a>
-      <a href="https://www.linkedin.com/in/waynecharrette/" >Resume</a>
+      <a href="#nav-about-me">About Me</a>
+      <a href="#nav-work">Work</a>
+      <a href="#nav-contact-me">Contact Me</a>
+      <a href="https://www.linkedin.com/in/waynecharrette/">Resume</a>
     </span>
   </header>
 
-  <!--This is the bar below the navigation bar. It contains the "boards" image itself in addition to the "Nice to meet you!" tagline. I couldn't think of a "cool" subtitle.-->
-  <section class="boards" alt="Picture of a slat of boards spanning across the screen.">
-    <span class="boards-box"><strong>Nice to meet you!</strong></span>
+  <!--This is the banner bar below the . It contains the "boards" image itself in addition to the "Nice to meet you!" tagline. I couldn't think of a "cool" subtitle.-->
+  <section class="banner" alt="Picture of a slat of boards spanning across the screen.">
+    <span class="banner-inline-box"><strong>Nice to meet you!</strong></span>
   </section>
 
   <!--About me section containing image of myself and description of who I am and why I am taking this course.-->
-  <section id="about-me" class="about-me-container">
-    <span class="about-me-box about-me-box-1">
-      <p class="about-me-text">About</p>
-      <p class="about-me-text">Me</p>
+  <section id="nav-about-me" class="content-about-me-container">
+    <span class="content-about-me-width content-about-me-box-1">
+      <p class="content-about-me-text">About</p>
+      <p class="content-about-me-text">Me</p>
     </span>
-    <span class="about-me-box about-me-box-2">
+    <span class="content-about-me-width content-about-me-box-2">
       <img src="./assets/images/wayne_portfolio_photo.jpg"
-        alt="Picture of Wayne Charrette wearing glasses with long hair." class="portfolio-photo" />
+        alt="Picture of Wayne Charrette wearing glasses with long hair." id="content-portfolio-photo" />
       <p>Hello! My name is Wayne Charrette. I am currently a student in the UNH Coding Bootcamp. I have been in the
         class for three weeks. I am attending this course for a few different reasons. Primarily, I can
         immediately apply
@@ -53,34 +54,34 @@
 
 
   <!--These are the five Work Box containers. Only the largest box containing "Horiseon" links to something outside the document. Per the brief, it links to the first module "Horiseon".-->
-  <section id="work" class="work-box-container">
-    <span class="work-box work-box-1">
+  <section id="nav-work" class="content-work-box-container">
+    <span class="content-work-width content-work-box-1">
       <p>Work</p>
     </span>
-    <span class="work-box work-box-2">
-      <a href="https://waynecharr.github.io/wcharrette_module_1/" class="work-surf-report">
-        <span class="work-surf-report-box" alt="Picture of code.">
-          <p class="work-surf-report-box1">Horiseon</p>
-          <p class="work-surf-report-box2">HTML/CSS</p>
+    <span class="content-work-width content-work-box-2">
+      <a href="https://waynecharr.github.io/wcharrette_module_1/" class="content-work-horiseon-report">
+        <span class="content-horiseon" alt="Picture of code.">
+          <p id="content-horiseon-inline1">Horiseon</p>
+          <p id="content-horiseon-inline2">HTML/CSS</p>
         </span>
       </a>
-      <!-- The following four boxes can be hovered over, but I believe that they do not need to link anywhere else per the description in the brief. They 1:1 reflect the demo-projects in the brief, but can easily be updated.-->
-      <div class="work-box-sub-class">
-        <span class="work-led-wall small-box" alt="Picture of a laptop on a table.>
-          <p class="work-led-wall-box1">LED Wall</p>
-          <p class="work-led-wall-box2">Node/IoT</p>
+      <!-- The following four boxes can be hovered over, but I believe that they do not need to link anywhere else per the description in the brief. They 1:1 reflect the demo-projects in the brief for now, but can easily be updated.-->
+      <div class="content-work-sub-class">
+        <span class="content-led-wall small-box" alt="Picture of a laptop on a table.">
+          <p id="content-led-wall-inline1">LED Wall</p>
+          <p id="content-led-wall-inline2">Node/IoT</p>
         </span>
-        <span class="work-calculator small-box" alt="Picture of rain drops on a window.">
-          <p class="work-calculator-box1">Calculator</p>
-          <p class="work-calculator-box2">React/JavaScript/CSS</p>
+        <span class="content-calculator small-box" alt="Picture of rain drops on a window.">
+          <p id="content-calculator-inline1">Calculator</p>
+          <p id="content-calculator-inline2">React/JavaScript/CSS</p>
         </span>
-        <span class="work-pastel-puzzle small-box" alt="Picture of a tree under the night sky.">
-          <p class="work-pastel-puzzle-box1">Pastel Puzzle</p>
-          <p class="work-pastel-puzzle-box2">MERN Stack</p>
+        <span class="content-pastel-puzzle small-box" alt="Picture of a tree under the night sky.">
+          <p id="content-pastel-puzzle-inline1">Pastel Puzzle</p>
+          <p id="content-pastel-puzzle-inline2">MERN Stack</p>
         </span>
-        <span class="work-run-buddy small-box" alt="Picture of a branch with pink flowers on it.">
-          <p class="work-run-buddy-box1">Run Buddy</p>
-          <p class="work-run-buddy-box2">HTML/CSS</p>
+        <span class="content-run-buddy small-box" alt="Picture of a branch with pink flowers on it.">
+          <p id="content-run-buddy-inline1">Run Buddy</p>
+          <p id="content-run-buddy-inline2">HTML/CSS</p>
         </span>
       </div>
     </span>
@@ -88,19 +89,21 @@
 
 
   <!--Contains the "Contact Me" section. Here I used a "div and "a" instead of an "ul". I struggled for a long time, attempting to get the "ul" flexing correctly, but it ultimately didn't coorperate.-->
-  <section id="contact-me" class="contact-me-container">
-    <span class="contact-me-box contact-me-box-1">
-      <p class="contact-me-text">Contact</p>
-      <p class="contact-me-text">Me</p>
+  <section id="nav-contact-me" class="content-contact-me-container">
+    <span class="content-contact-me-box content-contact-me-box-1">
+      <p class="content-contact-me-text">Contact</p>
+      <p class="content-contact-me-text">Me</p>
     </span>
-    <span class="contact-me-box contact-me-box-2">
-      <div class="contact-me-sections">
-        <a href="tel:603-657-5835" class="contact-me-section-individual">603-657-5835</a>
-        <a href="mailto:waynecharrette@gmail.com" class="contact-me-section-individual">wayne.charrette@gmail.com</a>
+    <span class="content-contact-me-width content-contact-me-box-2">
+      <div class="content-contact-me-list">
+        <!--I do not have a twitter or a spotify and I don't use much social media. I did link these to generic websites, since my tutor advised that they links go places.-->
+        <a href="tel:603-657-5835" id="content-contact-me-link">603-657-5835</a>
+        <a href="mailto:waynecharrette@gmail.com" id="content-contact-me-link">wayne.charrette@gmail.com</a>
         <a href="https://github.com/waynecharr/Wayne_Charrette_Bootcamp_Portfolio"
-          class="contact-me-section-individual">GitHub</a>
-        <a href="https://nitter.net" class="contact-me-section-individual">Twitter</a>
-        <a href="https://spotify.com" class="contact-me-section-individual">Spotify</a>
+          id="content-contact-me-link">GitHub</a>
+        <a href="https://nitter.net" id="content-contact-me-link">Twitter</a>
+        <a href="https://spotify.com" id="content-contact-me-link">Spotify</a>
       </div>
     </span>
   </section>
+</body>

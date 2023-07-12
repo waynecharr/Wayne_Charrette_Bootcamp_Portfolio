@@ -13,6 +13,7 @@ This project is for the second week module. I will be using this as a repository
 - "Contact Me Section Update" Updated the Contact Me Section, removed the unordere dlist which was causing the flex for the website to break completely
 - "Added Profile picture, updated About Me section." - still some additional changes need to be made to the code to clean things up, add comments, exchange classes for ids. Need a screen grab of the document to attach to the readme.  
 - "Code Clean up-start" - cleaned up some of the code. Fixed the Contact Me section to fix some outstand flexing issues.
+- "Index.html notes added" - added updated notes to the hmtl. Resume links to LinkedIn.
 
 # Git hub deployment
 
