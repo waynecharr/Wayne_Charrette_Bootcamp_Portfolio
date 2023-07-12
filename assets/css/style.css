@@ -26,7 +26,6 @@ header h1 {
   text-align: right;
   background-color: var(--turnip);
   color: var(--grey);
-  border: solid white;
 }
 
 
@@ -38,7 +37,6 @@ header h1 {
   padding-right: 40px;
   font-size: 15px;
   background-color: var(--grey);
-  border: solid white;
 }
 
 .topnav a {
@@ -113,6 +111,15 @@ main {
   flex-grow: 4;
   padding-left: 60px;
   border-left: solid var(--blue);
+}
+
+.portfolio-photo {
+  width: 200px;
+  height: 200x;
+  border: solid var(--turnip);
+  border-radius: 30px;
+  float: left;
+  margin-right: 2%;
 }
 
 /*Work Box Container Section*/
@@ -360,6 +367,7 @@ main {
   flex-grow: 1;
   padding-left: 60px;
   padding-right: 60px;
+  border-left: solid var(--blue);
 }
 
 .contact-me-section-master {
