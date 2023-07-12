@@ -162,7 +162,7 @@ main {
 
 .small-box {
   margin-top: 10px;
-  min-width: 49%;
+  min-width: 48%;
   
 }
 
@@ -193,7 +193,7 @@ main {
   padding: 10px;
   font-size: 12px;
   bottom: 15px;
-  padding-right: 41px;
+  padding-right: 49px;
 }
 
 .work-surf-report:hover {
@@ -377,10 +377,16 @@ main {
   font-size: 15px;
 }
 
+.contact-me-sections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+
 .contact-me-section-individual {
   color: var(--turnip);
   font-weight: bold;
-  margin: 6%;
   text-decoration: solid underline 4px;
   text-underline-offset: 8px;  
   font-size: 15px;

@@ -11,6 +11,7 @@ This project is for the second week module. I will be using this as a repository
 - "Work Boxes Pictures" - added new pictures. Need to redo a few elements still
 - "Work Box Borders, text, and size"  added text to the borders, opacity, a temporary link for the largest one. Adjusted sizes. Contact Me section, still needs adjustment. Code needs clean up. Picture needs to be added to About Me Section. 
 - "Contact Me Section Update" Updated the Contact Me Section, removed the unordere dlist which was causing the flex for the website to break completely
+- "Added Profile picture, updated About Me section." - still some additional changes need to be made to the code to clean things up, add comments, exchange classes for ids. Need a screen grab of the document to attach to the readme.  
 
 # Git hub deployment
 
@@ -21,5 +22,7 @@ https://waynecharr.github.io/Wayne_Charrette_Bootcamp_Portfolio/
 - https://www.w3schools.com/howto/howto_js_topnav.asp -- for navigation bar
 - https://www.youtube.com/watch?v=fYq5PXgSsbE -- helpful flex box guide
 - https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration -- helpful underline guide
+
+I did pursue tutoring this week with Katie Hobbs. She helped me a lot using Dev tools. 
 
 
