@@ -14,6 +14,7 @@ This project is for the second week module. I will be using this as a repository
 - "Added Profile picture, updated About Me section." - still some additional changes need to be made to the code to clean things up, add comments, exchange classes for ids. Need a screen grab of the document to attach to the readme.  
 - "Code Clean up-start" - cleaned up some of the code. Fixed the Contact Me section to fix some outstand flexing issues.
 - "Index.html notes added" - added updated notes to the hmtl. Resume links to LinkedIn.
+- "Code descriptive text and added images to readme" - cleaned up code. Added descriptions for sections. First attempt to add an imgae to the readme. Not sure if it worked. 
 
 # Git hub deployment
 
@@ -24,7 +25,12 @@ https://waynecharr.github.io/Wayne_Charrette_Bootcamp_Portfolio/
 - https://www.w3schools.com/howto/howto_js_topnav.asp -- for navigation bar
 - https://www.youtube.com/watch?v=fYq5PXgSsbE -- helpful flex box guide
 - https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration -- helpful underline guide
+- https://www.makeuseof.com/css-class-and-id-best-naming-practices/ -- for help with naming conventions
 
 I did pursue tutoring this week with Katie Hobbs. She explained the practical uses of dev tools this week. It was very helpful.
 
+# Images of Document #
+
+<img src=assets/images/Wayne_portfolio_website1.PNG>
+<img src=assets/images/Wayne_portfolio_website1.PNG>
 
