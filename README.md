@@ -15,6 +15,7 @@ This project is for the second week module. I will be using this as a repository
 - "Code Clean up-start" - cleaned up some of the code. Fixed the Contact Me section to fix some outstand flexing issues.
 - "Index.html notes added" - added updated notes to the hmtl. Resume links to LinkedIn.
 - "Code descriptive text and added images to readme" - cleaned up code. Added descriptions for sections. First attempt to add an imgae to the readme. Not sure if it worked. 
+- "Fixed pictures in ReadMe" - images were broken. They are now fixed. 
 
 # Git hub deployment
 
@@ -32,5 +33,5 @@ I did pursue tutoring this week with Katie Hobbs. She explained the practical us
 # Images of Document #
 
 <img src=assets/images/Wayne_portfolio_website1.PNG>
-<img src=assets/images/Wayne_portfolio_website1.PNG>
+<img src=assets/images/Wayne_portfolio_website2.PNG>
 
