@@ -360,23 +360,24 @@ main {
   flex-grow: 1;
   padding-left: 60px;
   padding-right: 60px;
-  border: solid black;
 }
 
-.contact-me-ul {
+.contact-me-section-master {
   display: flex;
-  justify-content: space-between;
-  float: inherit
+  flex-wrap: wrap;
+  width: 200px;
+  font-size: 15px;
 }
 
-.contact-me-ul a {
+.contact-me-section-individual {
   color: var(--turnip);
   font-weight: bold;
+  margin: 6%;
   text-decoration: solid underline 4px;
   text-underline-offset: 8px;  
   font-size: 15px;
 }
 
-.contact-me-ul a:hover {
+.contact-me-section-individual:hover {
  color: var(--grey);
 } 

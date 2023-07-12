@@ -9,6 +9,7 @@ This project is for the second week module. I will be using this as a repository
 - "Work Boxes Added" got the basic set up for the work flex boxes working. Needs additional help with images and all that. 
 - "Contact Me Added" added the contact me section. Need to figure out how to get the links to display and take up the correct amount of size in the Contact Me reference area, as well making sure that they flex properly vertically (since the size is quite large according to the brief)
 - "Work Boxes Pictures" - added new pictures. Need to redo a few elements still
+-- "Work Box Borders, text, and size" - added text to the borders, opacity, a temporary link for the largest one. Adjusted sizes. Contact Me section, still needs adjustment. Code needs clean up. Picture needs to be added to About Me Section. 
 
 # Git hub deployment
 
