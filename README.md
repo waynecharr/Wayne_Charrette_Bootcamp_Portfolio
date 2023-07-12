@@ -8,6 +8,7 @@ This project is for the second week module. I will be using this as a repository
 - "Add Read Me Details" - fleshed out the README
 - "Work Boxes Added" got the basic set up for the work flex boxes working. Needs additional help with images and all that. 
 - "Contact Me Added" added the contact me section. Need to figure out how to get the links to display and take up the correct amount of size in the Contact Me reference area, as well making sure that they flex properly vertically (since the size is quite large according to the brief)
+- "Work Boxes Pictures" - added new pictures. Need to redo a few elements still
 
 # Git hub deployment
 
