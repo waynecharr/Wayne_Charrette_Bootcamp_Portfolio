@@ -33,5 +33,5 @@ I did pursue tutoring this week with Katie Hobbs. She explained the practical us
 # Images of Document #
 
 <img src=assets/images/Wayne_portfolio_website1.PNG>
-<img src=assets/images/Wayne_portfolio_website2.PNG>
+<img src=assets/images/wayne_portfolio_website2.PNG>
 
