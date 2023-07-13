@@ -408,6 +408,6 @@ main {
   font-size: 15px;
 }
 
-.content-contact-me-link:hover {
+#content-contact-me-link:hover {
   color: var(--grey);
 }
