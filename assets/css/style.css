@@ -131,7 +131,7 @@ main {
 }
 
 /*Content below is the Work section*/
-/*Work Box Container for the whole section for flexing purposes.*/
+/*a Box Container for the whole section for flexing purposes.*/
 
 .content-work-box-container {
   display: flex;
@@ -222,6 +222,7 @@ main {
   background-image: url("../images/laptop.jpg");
   background-size: cover;
   position: relative;
+  object-fit: cover;
   float: left;
 }
 

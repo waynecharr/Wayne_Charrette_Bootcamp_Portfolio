@@ -16,6 +16,7 @@ This project is for the second week module. I will be using this as a repository
 - "Index.html notes added" - added updated notes to the hmtl. Resume links to LinkedIn.
 - "Code descriptive text and added images to readme" - cleaned up code. Added descriptions for sections. First attempt to add an imgae to the readme. Not sure if it worked. 
 - "Fixed pictures in ReadMe" - images were broken. They are now fixed. 
+- "Fixed broken hover in Contact Me" - noticed a broken hover when reviewing code today. Simple fix to change from a class to an ID. Pushed forward a fix. 
 
 # Git hub deployment
 
